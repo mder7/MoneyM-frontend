@@ -1,0 +1,31 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px 16px;
+}
+
+.pageTitle {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #14213d;
+  margin: 0;
+}
+
+.pageLoader {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.pageEmpty {
+  color: #6b7280;
+  text-align: center;
+}
+
+.tilesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}

@@ -1,0 +1,40 @@
+.tabBar {
+  left: 50% !important;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 390px;
+  padding: 0;
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+}
+
+.tabBarNav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.tabBarItem {
+  flex: 1;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 0 !important;
+  font-size: 12px;
+  color: #9ca3af !important;
+}
+
+.tabBarItem.disabled {
+  opacity: 0.45;
+}
+
+.tabBarItemActive {
+  color: #ffb37c !important;
+  font-weight: 600;
+}
+
+.tabBarIcon {
+  font-size: 18px;
+  line-height: 1;
+}

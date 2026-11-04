@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background: #e9ebef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* приложение — колонка 390px по центру, как экран телефона */
+.appShell {
+  max-width: 390px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #f4f5f7;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+}
+
+.appContent {
+  padding-bottom: 60px; /* место под нижнюю навигацию */
+}

@@ -1,0 +1,32 @@
+.shareFilter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shareFilterLabel {
+  min-width: 52px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #14213d;
+}
+
+.shareFilter .form-range::-webkit-slider-thumb {
+  background: #ffb37c;
+}
+
+.shareFilter .form-range::-moz-range-thumb {
+  background: #ffb37c;
+}
+
+.shareFilterButton,
+.shareFilterButton:hover,
+.shareFilterButton:focus,
+.shareFilterButton:disabled {
+  background: #ffb37c;
+  border: none;
+  border-radius: 20px;
+  padding: 4px 16px;
+  font-weight: 600;
+  color: #fff;
+}
