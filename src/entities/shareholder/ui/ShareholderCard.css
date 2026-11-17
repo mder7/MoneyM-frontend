@@ -30,5 +30,31 @@
 }
 
 .shCardLikes {
+  color: #6b7280;
+}
+
+.shCardLiked {
   color: #e05a5a;
+}
+
+.shCardActions {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px -4px -4px;
+}
+
+.shCardAction {
+  padding: 2px 4px;
+  color: #14213d;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.shCardAction:hover,
+.shCardAction:focus {
+  color: #ff9a54;
+}
+
+.shCardDelete {
+  color: #b42318;
 }

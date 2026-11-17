@@ -35,6 +35,52 @@
   opacity: 0.9;
 }
 
+.feedLikeButton,
+.feedLikeButton:hover,
+.feedLikeButton:focus,
+.feedLikeButton:disabled {
+  display: block;
+  margin: 0 0 2px auto;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feedLikeButtonLiked {
+  color: #ff6b81;
+}
+
+.feedLikeIcon {
+  display: block;
+  margin-bottom: 2px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.feedLikeIconLiked {
+  color: #ff6b81;
+}
+
+.feedAction {
+  display: block;
+  margin: 0 0 10px auto;
+  padding: 3px 12px;
+  border: none;
+  border-radius: 16px;
+  color: #14213d;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.feedDelete {
+  color: #b42318;
+}
+
 .feedOverlay {
   position: absolute;
   left: 0;

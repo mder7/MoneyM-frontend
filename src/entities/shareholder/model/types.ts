@@ -8,5 +8,6 @@ export interface Shareholder {
   ownershipShare: number
   preferredShare: number
   likesCount: number
+  isLiked: boolean
   isMine: number
 }

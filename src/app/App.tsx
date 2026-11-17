@@ -3,6 +3,9 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { AppLayout } from './AppLayout'
 import { TilesPage } from '../pages/TilesPage/TilesPage'
 import { FeedPage } from '../pages/FeedPage/FeedPage'
+import { LoginPage } from '../pages/LoginPage/LoginPage'
+import { AddPage } from '../pages/AddPage/AddPage'
+import { CreatorRoute } from './CreatorRoute'
 import { ROUTES } from '../shared/config/routes'
 
 export const App: FC = () => (
@@ -11,6 +14,15 @@ export const App: FC = () => (
       <Route element={<AppLayout />}>
         <Route path="/" element={<Navigate to={ROUTES.FEED} replace />} />
         <Route path={ROUTES.TILES} element={<TilesPage />} />
+        <Route path={ROUTES.LOGIN} element={<LoginPage />} />
+        <Route
+          path={ROUTES.ADD}
+          element={
+            <CreatorRoute>
+              <AddPage />
+            </CreatorRoute>
+          }
+        />
         <Route path={ROUTES.FEED} element={<FeedPage />} />
         <Route path={`${ROUTES.FEED}/:id`} element={<FeedPage />} />
       </Route>

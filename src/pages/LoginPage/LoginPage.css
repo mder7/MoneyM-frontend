@@ -1,0 +1,70 @@
+.authPage {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px 16px;
+  color: #14213d;
+}
+
+.authCard {
+  padding: 20px 16px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(20, 33, 61, 0.08);
+}
+
+.authCard .form-label {
+  margin-bottom: 6px;
+  color: #14213d;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.authControl {
+  min-height: 44px;
+  border-color: #d7dbe2;
+  border-radius: 10px;
+  color: #14213d;
+  background: #f4f5f7;
+}
+
+.authControl:focus {
+  border-color: #ffb37c;
+  box-shadow: 0 0 0 0.2rem rgba(255, 179, 124, 0.25);
+}
+
+.authAlert {
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.authActions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.authButton {
+  min-height: 42px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.authButtonPrimary,
+.authButtonPrimary:hover,
+.authButtonPrimary:focus,
+.authButtonPrimary:disabled {
+  border: none;
+  color: #fff;
+  background: #ffb37c;
+}
+
+.authButtonSecondary,
+.authButtonSecondary:hover,
+.authButtonSecondary:focus,
+.authButtonSecondary:disabled {
+  border: none;
+  color: #14213d;
+  background: #fff;
+}

@@ -24,6 +24,10 @@
   text-align: center;
 }
 
+.pageError {
+  color: #b42318;
+}
+
 .tilesGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;

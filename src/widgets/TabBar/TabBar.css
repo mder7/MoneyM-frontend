@@ -6,6 +6,7 @@
   padding: 0;
   background: #fff;
   border-top: 1px solid #e5e7eb;
+  flex-direction: column;
 }
 
 .tabBarNav {
@@ -37,4 +38,11 @@
 .tabBarIcon {
   font-size: 18px;
   line-height: 1;
+}
+
+.tabBarError {
+  width: 100%;
+  padding: 6px 12px;
+  color: #b42318;
+  font-size: 12px;
 }

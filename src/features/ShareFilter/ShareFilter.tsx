@@ -18,6 +18,7 @@ export const ShareFilter: FC<Props> = ({ value, setValue, onSubmit, loading }) =
       max={30}
       step={1}
       value={value}
+      disabled={loading}
       onChange={(event) => setValue(Number(event.target.value))}
     />
     <Button className="shareFilterButton" disabled={loading} onClick={onSubmit}>

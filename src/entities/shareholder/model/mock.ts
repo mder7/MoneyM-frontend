@@ -12,6 +12,7 @@ export const SHAREHOLDERS_MOCK: Shareholder[] = [
     ownershipShare: 19.69,
     preferredShare: 10,
     likesCount: 3,
+    isLiked: false,
     isMine: 0,
   },
   {
@@ -23,6 +24,7 @@ export const SHAREHOLDERS_MOCK: Shareholder[] = [
     ownershipShare: 16.3,
     preferredShare: 4,
     likesCount: 3,
+    isLiked: false,
     isMine: 0,
   },
   {
@@ -34,6 +36,7 @@ export const SHAREHOLDERS_MOCK: Shareholder[] = [
     ownershipShare: 9.89,
     preferredShare: 12,
     likesCount: 2,
+    isLiked: false,
     isMine: 0,
   },
   {
@@ -45,6 +48,7 @@ export const SHAREHOLDERS_MOCK: Shareholder[] = [
     ownershipShare: 3.62,
     preferredShare: 0,
     likesCount: 2,
+    isLiked: false,
     isMine: 0,
   },
 ]
